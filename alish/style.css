@@ -1,0 +1,869 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+.MNTN .header a {
+  color: #ffffff;
+}
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+.MNTN {
+    background-color: #0b1d26;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .MNTN .overlap-wrapper {
+    background-color: var(--bg);
+    width: 1920px;
+    height: 4600px;
+  }
+  
+  .MNTN .overlap {
+    position: relative;
+    height: 4480px;
+  }
+  
+  .MNTN .HG {
+    position: absolute;
+    width: 1920px;
+    height: 1113px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .MNTN .BG-hero {
+    height: 1200px;
+    top: 0;
+    background: linear-gradient(
+      327deg,
+      rgba(11, 29, 38, 0) 0%,
+      rgba(11, 29, 38, 1) 100%
+    );
+    position: absolute;
+    width: 1920px;
+    left: 0;
+  }
+  
+  .MNTN .content {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    position: absolute;
+    top: 287px;
+    left: 500px;
+  }
+  
+  .MNTN .group {
+    position: relative;
+    width: 318px;
+    height: 22px;
+  }
+  
+  .MNTN .a-hiking-guide {
+    position: absolute;
+    top: 0;
+    left: 104px;
+    font-family: "Gilroy-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: var(--accent);
+    font-size: 18px;
+    letter-spacing: 6.00px;
+    line-height: normal;
+  }
+  
+  .MNTN .rectangle {
+    position: absolute;
+    width: 72px;
+    height: 2px;
+    top: 10px;
+    left: 0;
+  }
+  
+  .MNTN .be-prepared-for-the {
+    position: relative;
+    width: 950px;
+    font-family: "Chronicle Display-Semibold", Helvetica;
+    font-weight: 400;
+    color: var(--wei);
+    font-size: 88px;
+    letter-spacing: 0;
+    line-height: 100px;
+  }
+  
+  .MNTN .div {
+    position: relative;
+    width: 128px;
+    height: 24px;
+  }
+  
+  .MNTN .equipment {
+    top: 1px;
+    left: 0;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: normal;
+    position: absolute;
+    font-family: "Gilroy-Bold", Helvetica;
+    font-weight: 700;
+    letter-spacing: 0;
+  }
+  
+  .MNTN .icon-navigation {
+    position: absolute;
+    width: 16px;
+    height: 24px;
+    top: 0;
+    left: 110px;
+  }
+  
+  .MNTN .MG {
+    position: absolute;
+    width: 1920px;
+    height: 1422px;
+    top: 464px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .MNTN .VG {
+    position: absolute;
+    width: 1920px;
+    height: 926px;
+    top: 768px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .MNTN .BG-content {
+    height: 700px;
+    top: 1200px;
+    background: linear-gradient(
+      180deg,
+      rgba(11, 29, 38, 0) 0%,
+      rgba(11, 29, 38, 1) 72%
+    );
+    position: absolute;
+    width: 1920px;
+    left: 0;
+  }
+  
+  .MNTN .social {
+    position: absolute;
+    width: 24px;
+    height: 173px;
+    top: 359px;
+    left: 80px;
+  }
+  
+  .MNTN .slider {
+    position: absolute;
+    width: 257px;
+    height: 440px;
+    top: 226px;
+    left: 1663px;
+  }
+  
+  .MNTN .header {
+    position: absolute;
+    width: 1760px;
+    height: 25px;
+    top: 64px;
+    left: 80px;
+    background-color: transparent;
+    overflow: hidden;
+  }
+  
+  .MNTN .text-wrapper {
+    position: absolute;
+    top: 1px;
+    left: 984px;
+    font-family: "Gilroy-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .MNTN .text-wrapper-2 {
+    top: 1px;
+    left: 869px;
+    font-family: "Gilroy-Bold", Helvetica;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+  }
+  
+  .MNTN .text-wrapper-3 {
+    top: 1px;
+    left: 739px;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: normal;
+    position: absolute;
+    font-family: "Gilroy-Bold", Helvetica;
+    font-weight: 700;
+    letter-spacing: 0;
+  }
+  
+  .MNTN .account {
+    position: absolute;
+    width: 100px;
+    height: 24px;
+    top: 1px;
+    left: 1662px;
+  }
+  
+  .MNTN .text-wrapper-4 {
+    position: absolute;
+    top: 2px;
+    left: 32px;
+    font-family: "Gilroy-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .MNTN .icons-general-cart {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 0;
+    left: 0;
+  }
+  
+  .MNTN .logo {
+    width: 108px;
+    height: 24px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .MNTN .content-2 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 200px;
+    position: absolute;
+    top: 1440px;
+    left: 229px;
+    overflow: hidden;
+  }
+  
+  .MNTN .content-3 {
+    position: relative;
+    width: 1462px;
+    height: 720px;
+  }
+  
+  .MNTN .overlap-group {
+    position: absolute;
+    width: 782px;
+    height: 543px;
+    top: 37px;
+    left: 0;
+  }
+  
+  .MNTN .equipment-2 {
+    top: 0;
+    left: 0;
+    opacity: 0.1;
+    color: #ffffff;
+    font-size: 240px;
+    line-height: 240px;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Gilroy-Bold", Helvetica;
+    font-weight: 700;
+    letter-spacing: 0;
+  }
+  
+  .MNTN .content-4 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 27px;
+    position: absolute;
+    top: 104px;
+    left: 150px;
+  }
+  
+  .MNTN .tagline {
+    width: 270px;
+    position: relative;
+    height: 22px;
+  }
+  
+  .MNTN .text-wrapper-5 {
+    position: absolute;
+    top: 0;
+    left: 96px;
+    font-family: "Gilroy-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: var(--accent);
+    font-size: 18px;
+    letter-spacing: 6.00px;
+    line-height: normal;
+  }
+  
+  .MNTN .line {
+    position: absolute;
+    width: 72px;
+    height: 2px;
+    top: 10px;
+    left: 0;
+    background-color: var(--accent);
+  }
+  
+  .MNTN .p {
+    position: relative;
+    width: 555px;
+    font-family: "Chronicle Display-Semibold", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .MNTN .text-wrapper-6 {
+    position: relative;
+    width: 632px;
+    font-family: "Gilroy-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 32px;
+  }
+  
+  .MNTN .more {
+    position: relative;
+    width: 129px;
+    height: 22px;
+  }
+  
+  .MNTN .equipment-3 {
+    top: 0;
+    left: 0;
+    color: var(--accent);
+    font-size: 18px;
+    line-height: normal;
+    position: absolute;
+    font-family: "Gilroy-Bold", Helvetica;
+    font-weight: 700;
+    letter-spacing: 0;
+  }
+  
+  .MNTN .img {
+    position: absolute;
+    width: 24px;
+    height: 16px;
+    top: 3px;
+    left: 103px;
+  }
+  
+  .MNTN .element {
+    left: 896px;
+    object-fit: cover;
+    position: absolute;
+    width: 566px;
+    height: 720px;
+    top: 0;
+  }
+  
+  .MNTN .element-2 {
+    left: 0;
+    position: absolute;
+    width: 566px;
+    height: 720px;
+    top: 0;
+  }
+  
+  .MNTN .overlap-2 {
+    position: absolute;
+    width: 782px;
+    height: 543px;
+    top: 37px;
+    left: 680px;
+  }
+  
+  .MNTN .tagline-2 {
+    width: 356px;
+    position: relative;
+    height: 22px;
+  }
+  
+  .MNTN .tagline-3 {
+    width: 456px;
+    position: relative;
+    height: 22px;
+  }
+  
+  .MNTN .footer {
+    position: relative;
+    width: 1466px;
+    height: 280px;
+    margin-right: -4.00px;
+    background-color: transparent;
+  }
+  
+  .MNTN .logo-2 {
+    width: 116px;
+    height: 38px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .MNTN .text-wrapper-7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Chronicle Display-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--wei);
+    font-size: 32px;
+    letter-spacing: 0.32px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .MNTN .text-wrapper-8 {
+    left: 32px;
+    position: absolute;
+    top: 0;
+    font-family: "Chronicle Display-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--wei);
+    font-size: 32px;
+    letter-spacing: 0.32px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .MNTN .text-wrapper-9 {
+    position: absolute;
+    top: 0;
+    left: 58px;
+    font-family: "Chronicle Display-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--wei);
+    font-size: 32px;
+    letter-spacing: 0.32px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .MNTN .text-wrapper-10 {
+    left: 82px;
+    position: absolute;
+    top: 0;
+    font-family: "Chronicle Display-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--wei);
+    font-size: 32px;
+    letter-spacing: 0.32px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  ы
+  .MNTN .get-out-there {
+    position: absolute;
+    width: 303px;
+    top: 62px;
+    left: 0;
+    font-family: "Gilroy-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 32px;
+  }
+  
+  .MNTN .links {
+    width: 205px;
+    height: 280px;
+    left: 896px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .MNTN .text-wrapper-11 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Gilroy-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--accent);
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 32px;
+    white-space: nowrap;
+  }
+  
+  .MNTN .text-wrapper-12 {
+    top: 56px;
+    left: 0;
+    font-family: "Gilroy-Medium", Helvetica;
+    font-weight: 500;
+    line-height: 32px;
+    white-space: nowrap;
+    position: absolute;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+  }
+  
+  .MNTN .text-wrapper-13 {
+    position: absolute;
+    top: 104px;
+    left: 0;
+    font-family: "Gilroy-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 32px;
+    white-space: nowrap;
+  }
+  
+  .MNTN .text-wrapper-14 {
+    position: absolute;
+    top: 152px;
+    left: 0;
+    font-family: "Gilroy-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 32px;
+    white-space: nowrap;
+  }
+  
+  .MNTN .text-wrapper-15 {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    font-family: "Gilroy-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 32px;
+    white-space: nowrap;
+  }
+  
+  .MNTN .text-wrapper-16 {
+    position: absolute;
+    top: 248px;
+    left: 0;
+    font-family: "Gilroy-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 32px;
+    white-space: nowrap;
+  }
+  
+
+
+  .MNTN .links-2 {
+    width: 169px;
+    height: 184px;
+    left: 1301px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .MNTN .copyright-MNTN {
+    position: absolute;
+    top: 248px;
+    left: 6px;
+    opacity: 0.5;
+    font-family: "Gilroy-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 32px;
+    white-space: nowrap;
+  }
+  :root {
+    --bg: rgba(11, 29, 38, 1);
+    --accent: rgba(251, 215, 132, 1);
+    --wei: rgba(255, 255, 255, 1);
+  }
+
+button, .more, .MNTN .equipment, .MNTN .equipment-3 {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover,
+.more:hover,
+.MNTN .equipment:hover,
+.MNTN .equipment-3:hover {
+  transform: translateY(-3px);
+  opacity: 0.8;
+}
+
+
+button:active,
+.more:active,
+.MNTN .equipment:active,
+.MNTN .equipment-3:active {
+  transform: scale(0.97);
+}
+
+.MNTN .header a {
+  position: relative;
+  display: inline-block;
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.MNTN .header a:hover {
+  color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.MNTN .header a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 2px;
+  background-color: var(--accent);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+
+
+.MNTN .header a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* Tablet (768px - 1024px) */
+@media (max-width: 1024px) {
+  .MNTN .overlap-wrapper {
+    width: 100%;
+    height: auto;
+  }
+
+  .MNTN .content {
+    left: 80px;
+    width: calc(100% - 160px);
+  }
+
+  .MNTN .be-prepared-for-the {
+    width: 100%;
+    font-size: 72px;
+    line-height: 82px;
+  }
+
+  .MNTN .header {
+    width: calc(100% - 160px);
+    left: 80px;
+  }
+
+  .MNTN .text-wrapper {
+    left: 700px;
+  }
+
+  .MNTN .text-wrapper-2 {
+    left: 580px;
+  }
+
+  .MNTN .text-wrapper-3 {
+    left: 450px;
+  }
+
+  .MNTN .account {
+    left: calc(100% - 180px);
+  }
+
+  .MNTN .content-2 {
+    left: 80px;
+    width: calc(100% - 160px);
+  }
+
+  .MNTN .content-3 {
+    width: 100%;
+  }
+
+  .MNTN .overlap-group,
+  .MNTN .overlap-2 {
+    width: 60%;
+  }
+
+  .MNTN .element,
+  .MNTN .element-2 {
+    width: 35%;
+  }
+
+  .MNTN .footer {
+    width: 100%;
+  }
+}
+
+/* Phone (up to 768px) */
+@media (max-width: 768px) {
+  .MNTN .content {
+    left: 40px;
+    width: calc(100% - 80px);
+    top: 200px;
+  }
+
+  .MNTN .be-prepared-for-the {
+    font-size: 48px;
+    line-height: 56px;
+    width: 100%;
+  }
+
+  .MNTN .header {
+    width: calc(100% - 80px);
+    left: 40px;
+    top: 40px;
+  }
+
+  .MNTN .text-wrapper,
+  .MNTN .text-wrapper-2,
+  .MNTN .text-wrapper-3 {
+    display: none;
+  }
+
+  .MNTN .account {
+    left: calc(100% - 120px);
+  }
+
+  .MNTN .social,
+  .MNTN .slider {
+    display: none;
+  }
+
+  .MNTN .content-2 {
+    left: 40px;
+    width: calc(100% - 80px);
+    top: 1000px;
+  }
+
+  .MNTN .content-3 {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .MNTN .overlap-group,
+  .MNTN .overlap-2 {
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-bottom: 40px;
+  }
+
+  .MNTN .element,
+  .MNTN .element-2 {
+    width: 100%;
+    position: relative;
+    left: 0;
+    margin-bottom: 40px;
+  }
+
+  .MNTN .p {
+    font-size: 40px;
+    width: 100%;
+  }
+
+  .MNTN .text-wrapper-6 {
+    width: 100%;
+  }
+
+  .MNTN .equipment-2 {
+    font-size: 180px;
+  }
+
+  .MNTN .footer {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .MNTN .links,
+  .MNTN .links-2 {
+    position: relative;
+    left: 0;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .MNTN .copyright-MNTN {
+    position: relative;
+    left: 0;
+    text-align: center;
+  }
+}
+
+/* Small phones (up to 480px) */
+@media (max-width: 480px) {
+  .MNTN .content {
+    left: 20px;
+    width: calc(100% - 40px);
+  }
+
+  .MNTN .be-prepared-for-the {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .MNTN .header {
+    width: calc(100% - 40px);
+    left: 20px;
+  }
+
+  .MNTN .content-2 {
+    left: 20px;
+    width: calc(100% - 40px);
+  }
+
+  .MNTN .p {
+    font-size: 32px;
+  }
+
+  .MNTN .equipment-2 {
+    font-size: 120px;
+    line-height: 120px;
+  }
+
+  .MNTN .text-wrapper-5 {
+    font-size: 16px;
+    letter-spacing: 4px;
+  }
+}
